@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3a7d5d1bd3.js" crossorigin="anonymous"></script>
+
+    <style>
+        .foto-perfil{
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .corPrimaria {
+          background-color: #18bc9c;
+        }
+        .corSecundaria {
+          background-color: #1b1b1b;
+        }
+
+        p {
+          font-family:Lato, 'Helvetica' , Arial, Helvetica, sans-serif;
+          color: black !important;
+        }
+        .icones {
+          padding-left: 5px;
+        }
+
+        .titulosBrancos {
+          text-decoration: underline;
+          text-underline-position: below;
+          padding-bottom: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white;
+        }
+
+        
+        .titulosVerdes {
+          text-decoration: underline;
+          text-underline-position: below;
+          padding-bottom: 20px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: #18bc9c;
+        }
+        .textoBranco {
+          color: white !important;
+        }
+        .jumbotron{
+          margin-bottom: 0px;
+        }
+        .texttoFooter{
+          margin: 0px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        html{
+          scroll-behavior: smooth;
+        }
+    </style>    
+</head>
+<body>
+
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Marcos Vinicius</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+          </ul>
+          <!-- Sessões 1 -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+             </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#objetivo">Objetivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoBranco" href="#contato">Contato</a>
+          </li>
+          </ul>
+        
+        </div>
+      </nav>
+
+      <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+        <img class="foto-perfil" src="https://lh3.googleusercontent.com/a/AItbvmmt4ceXwj0aBkxTtFZ3mJavUQN4GsbDo1ddMmg=s288-p-rw-no" alt="">
+          <h1 class="jumbotron-heading textoBranco">Marcos Vinicius</h1>
+          <p class="lead textoBranco">Desenvolvedor de games 2D e 3D com Unity em Csharp - Desenvolvedor web frond-end em JS</p>
+          <p>
+            <a href="#contato" class="btn btn-dark my-2">Contato</a>
+          </p>
+          <a href="https://www.linkedin.com/in/marcos-vinicius-896869219"><i class="textoBranco fab fa-linkedin"></i></a>
+          <a href="https://github.com/MarcosViniCarvalho"><i class="textoBranco icones fab fa-github"></i></a>
+          
+        </div>
+      </section>
+      
+      <!-- Sessão 2 Cards-->
+      <div class="album py-5 bg-light " id="projetos">
+        <div class="container">
+          <h2 class="jumbotron-heading text-center titulosVerdes">Projetos</h2>
+          <div class="row">  
+            
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="	https://lh3.google.com/u/0/d/1OTX0XxVmpy2wi2YnmT7Wx1nVi0_E3ka0=w200-h190-p-k-nu-iv1" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Uma aplicação feita no Unity que serve para analisar um banco de dados com 759 itens , contendo 5 regiões, 5 produtos e o valor das vendas de cada um ao longo de 12 meses.</p>
+                <ul>
+                    <li>C#</li>
+                    <li>Unity</li>
+                    <li>Blender</li>
+                    <li>Excel</li>
+                </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/MarcosViniCarvalho/Grafico-Dinamico"><button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button></a>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://www.projetodraft.com/wp-content/uploads/2017/06/faber-castell-tamandua-1024x461.jpg" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text">Uma aplicação de realidade aumentada que foi criada para auxiliar na vizualização de um projeto de faculdade</p>
+                    <ul>
+                      <li>C#</li>
+                      <li>Unity</li>
+                  </ul>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://c4.wallpaperflare.com/wallpaper/643/1003/611/low-poly-planet-digital-art-wallpaper-preview.jpg" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text">Um game 3D de exploração e estratégia em tempo real low poly desenvolvido para dispositivos móveis</p>
+                    <ul>
+                      <li>C#</li>
+                      <li>Unity</li>
+                      <li>Blender</li>
+                      <li>Photoshop</li>
+                  </ul>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-success">Ver projeto</button>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Sobre mim -->
+        <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+            <div class="container">
+              <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+              <p class="lead textoBranco">
+                  Eu iniciei minha jornada no mundo da tecnologia por volta de 2019, 
+                  fazendo mini projetos de testes, modelagem 3D, desenho digital, editando mídias para plataformas de streaming, mas só em 
+                  2021 me encontrei na area de desenvolvimento web e de games. Atualmente estou estudando front-end em JS e em paralelo estou 
+                  reforçando meu conhecimento em Csharp e as ferramentas da game engine Unity.
+                
+              </p>
+            </div>
+        </section>
+
+        <!-- Objetivo -->
+        <section class="jumbotron text-center" id="objetivo">
+          <div class="container">
+            <h2 class="jumbotron-heading titulosVerdes">Objetivo</h2>
+            <p class="lead">
+                  Eu desejo me tornar um desenvolvedor full-stack em programação web e a 
+                longo prazo desejo desenvolver uma plataforma de serviços multinacionais. 
+                Também quero, nas horas vagas, desenvolver games que sejam reconhecidos  
+                internacionalmente e ja garantir uma renda extra...
+              
+            </p>
+          </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="corPrimaria" id="contato">
+          <div>
+            <div class="container-fluid">
+              <h3 style="padding-top: 60px;" class="text-center titulosBrancos">Disponivel para oportunidades</h3>
+              <a href="mailto:marcosvinitech@gmail.com">
+                <h4 style="padding-bottom: 60px;" class="text-center">marcosvinitech@gmail.com</h4></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="text-center corSecundaria texttoFooter">
+          <p class="textoBranco">Copyright 2022 Marcos Vinicius</p>
+        </footer>
+</body>
+</html>
